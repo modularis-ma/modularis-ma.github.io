@@ -937,13 +937,11 @@
 
 @media (max-width: 575px) {
   .u-section-6 .u-sheet-1 {
-    min-height: 1313px;
+    min-height: 1031px;
   }
 
   .u-section-6 .u-layout-wrap-1 {
     width: 390px;
-    margin-top: 55px;
-    margin-bottom: 55px;
   }
 
   .u-section-6 .u-layout-cell-1 {
