@@ -38,53 +38,7 @@
     <meta property="og:title" content="Modularis">
     <meta property="og:description" content="Maisons personalisées">
     <meta property="og:type" content="website">
-  <script src="https://www.google.com/recaptcha/api.js?render=6LdwzKoaAAAAAOcXE7s-TN2YKcPFWT5t-A6RAHrw"></script>
-    <script>
-( function( grecaptcha, sitekey, actions ) {
-
-	var recaptcha = {
-
-		execute: function( action ) {
-			grecaptcha.execute(
-				sitekey,
-				{ action: action }
-			).then( function( token ) {
-				var forms = document.getElementsByTagName( 'form' );
-
-				for ( var i = 0; i < forms.length; i++ ) {
-					var fields = forms[ i ].getElementsByTagName( 'input' );
-
-					for ( var j = 0; j < fields.length; j++ ) {
-						var field = fields[ j ];
-
-						if ( 'recaptchaResponse' === field.getAttribute( 'name' ) ) {
-							field.setAttribute( 'value', token );
-							break;
-						}
-					}
-				}
-			} );
-		},
-
-		executeContact: function() {
-			recaptcha.execute( actions[ 'contact' ] );
-		}
-	};
-
-	grecaptcha.ready(
-		recaptcha.executeContact
-	);
-
-	document.addEventListener( 'change',
-		recaptcha.executeContact, false
-	);
-} )(
-	grecaptcha,
-	'6LdwzKoaAAAAAOcXE7s-TN2YKcPFWT5t-A6RAHrw',
-	{"contact":"contact"}
-);
-    </script>
-</head>
+  </head>
   <body data-home-page="index.html" data-home-page-title="index" class="u-body u-xl-mode"><header class="u-align-center-sm u-align-center-xs u-clearfix u-header u-white u-header" id="sec-7a51"><div class="u-clearfix u-sheet u-sheet-1">
         <a href="https://modulis.ma" class="u-image u-logo u-image-1" data-image-width="387" data-image-height="597" title="Modulis">
           <img src="images/modularis.PNG" class="u-logo-image u-logo-image-1">
@@ -131,7 +85,7 @@
       </div></header>
     <section class="u-align-left u-clearfix u-image lazyload u-section-1" id="carousel_c923" data-image-width="1600" data-image-height="1067" data-bg="url(&quot;images/00-Hero.jpg&quot;)">
       <div class="u-clearfix u-sheet u-sheet-1">
-        <h2 class="u-align-center-sm u-align-center-xs u-custom-font u-text u-text-default u-text-1" data-animation-name="bounceIn" data-animation-duration="2000" data-animation-direction=""> Maisons personnalisées</h2>
+        <h2 class="u-align-center-sm u-align-center-xs u-custom-font u-text u-text-default u-text-1" data-animation-out="0"> Maisons personnalisées</h2>
       </div>
     </section>
     <section class="u-clearfix u-section-2" id="sec-2d48">
