@@ -37350,8 +37350,14 @@ a.u-link.u-text-hover-grey-90:hover {
     min-height: 125px;
   }
 
+  .u-header .u-image-1 {
+    height: 93px;
+    margin-top: 18px;
+    margin-left: 2px;
+  }
+
   .u-header .u-image-2 {
-    margin-top: -88px;
+    margin-top: -89px;
     margin-left: auto;
   }
 
