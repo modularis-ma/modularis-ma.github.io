@@ -37352,21 +37352,23 @@ a.u-link.u-text-hover-grey-90:hover {
 
   .u-header .u-image-1 {
     height: 93px;
-    margin-top: 18px;
-    margin-left: 2px;
+    margin-top: 16px;
   }
 
   .u-header .u-image-2 {
-    margin-top: -89px;
+    margin-top: -88px;
     margin-left: auto;
   }
 
   .u-header .u-image-3 {
-    margin-top: -85px;
+    width: 59px;
+    height: 87px;
+    margin-top: -90px;
+    margin-left: 75px;
   }
 
   .u-header .u-menu-1 {
-    margin-top: -55px;
+    margin-top: -53px;
     margin-right: 69px;
   }
 
