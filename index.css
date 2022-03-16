@@ -6,15 +6,6 @@
   min-height: 803px;
 }
 
-.u-section-1 .u-text-1 {
-  font-family: SFTransRobotics;
-  font-weight: 400;
-  background-image: none;
-  line-height: 1;
-  font-size: 3.75rem;
-  margin: 32px auto 60px;
-}
-
 @media (max-width: 1199px) {
   .u-section-1 .u-sheet-1 {
     min-height: 662px;
@@ -31,22 +22,11 @@
   .u-section-1 .u-sheet-1 {
     min-height: 589px;
   }
-
-  .u-section-1 .u-text-1 {
-    width: auto;
-    margin-top: 21px;
-  }
 }
 
 @media (max-width: 575px) {
   .u-section-1 .u-sheet-1 {
     min-height: 732px;
-  }
-
-  .u-section-1 .u-text-1 {
-    font-size: 3rem;
-    margin-top: 35px;
-    margin-left: -11px;
   }
 } .u-section-2 {
   margin-top: 0;
@@ -688,6 +668,8 @@
 .u-section-6 .u-text-1 {
   font-size: 3.75rem;
   width: 236px;
+  font-family: SFTransRobotics;
+  font-weight: 400;
   margin: 14px auto 0;
 }
 
