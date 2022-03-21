@@ -231,10 +231,6 @@
 }
 
 @media (max-width: 1199px) {
-  .u-section-2 .u-sheet-1 {
-    margin-bottom: 0;
-  }
-
   .u-section-2 .u-gallery-item-2 {
     height: 375px;
     margin-bottom: 60px;
