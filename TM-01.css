@@ -47,6 +47,10 @@
   margin-right: 10px;
 }
 
+.u-section-2 .u-back-image-1 {
+  width: 375px;
+}
+
 .u-section-2 .u-over-slide-1 {
   background-image: linear-gradient(0deg, rgba(0,0,0,0.2), rgba(0,0,0,0.2));
   padding: 20px;
@@ -60,6 +64,10 @@
   margin-right: 10px;
 }
 
+.u-section-2 .u-back-image-2 {
+  width: 375px;
+}
+
 .u-section-2 .u-over-slide-2 {
   background-image: linear-gradient(0deg, rgba(0,0,0,0.2), rgba(0,0,0,0.2));
   padding: 20px;
@@ -67,6 +75,10 @@
 
 .u-section-2 .u-gallery-item-3 {
   margin-right: 10px;
+}
+
+.u-section-2 .u-back-image-3 {
+  width: 375px;
 }
 
 .u-section-2 .u-over-slide-3 {
@@ -100,6 +112,10 @@
   margin-right: 10px;
 }
 
+.u-section-2 .u-back-image-5 {
+  width: 375px;
+}
+
 .u-section-2 .u-over-slide-5 {
   background-image: linear-gradient(0deg, rgba(0,0,0,0.2), rgba(0,0,0,0.2));
   padding: 20px;
@@ -107,6 +123,10 @@
 
 .u-section-2 .u-gallery-item-6 {
   margin-right: 10px;
+}
+
+.u-section-2 .u-back-image-6 {
+  width: 375px;
 }
 
 .u-section-2 .u-over-slide-6 {
@@ -118,6 +138,10 @@
   margin-right: 10px;
 }
 
+.u-section-2 .u-back-image-7 {
+  width: 375px;
+}
+
 .u-section-2 .u-over-slide-7 {
   background-image: linear-gradient(0deg, rgba(0,0,0,0.2), rgba(0,0,0,0.2));
   padding: 20px;
@@ -125,6 +149,10 @@
 
 .u-section-2 .u-gallery-item-8 {
   margin-right: 10px;
+}
+
+.u-section-2 .u-back-image-8 {
+  width: 375px;
 }
 
 .u-section-2 .u-over-slide-8 {
@@ -136,6 +164,10 @@
   margin-right: 10px;
 }
 
+.u-section-2 .u-back-image-9 {
+  width: 375px;
+}
+
 .u-section-2 .u-over-slide-9 {
   background-image: linear-gradient(0deg, rgba(0,0,0,0.2), rgba(0,0,0,0.2));
   padding: 20px;
@@ -143,6 +175,10 @@
 
 .u-section-2 .u-gallery-item-10 {
   margin-right: 10px;
+}
+
+.u-section-2 .u-back-image-10 {
+  width: 375px;
 }
 
 .u-section-2 .u-over-slide-10 {
@@ -154,6 +190,10 @@
   margin-right: 10px;
 }
 
+.u-section-2 .u-back-image-11 {
+  width: 375px;
+}
+
 .u-section-2 .u-over-slide-11 {
   background-image: linear-gradient(0deg, rgba(0,0,0,0.2), rgba(0,0,0,0.2));
   padding: 20px;
@@ -161,6 +201,10 @@
 
 .u-section-2 .u-gallery-item-12 {
   margin-right: 10px;
+}
+
+.u-section-2 .u-back-image-12 {
+  width: 375px;
 }
 
 .u-section-2 .u-over-slide-12 {
@@ -880,13 +924,13 @@
   }
 
   .u-section-4 .u-text-7 {
-    margin-top: -69px;
-    margin-right: -103px;
+    margin-top: -70px;
+    margin-right: 0;
     margin-left: 103px;
   }
 
   .u-section-4 .u-image-6 {
-    margin-top: 31px;
+    margin-top: 32px;
     margin-left: 6px;
   }
 
