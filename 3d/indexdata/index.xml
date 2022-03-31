@@ -1301,7 +1301,7 @@
 <!-- **** Width="6000px" Height="3000px" **** -->
 <scene name="pano103"
        heading="0"
-       thumburl="%FIRSTXML%/08_sdb_etage_103/thumbnail.jpg"
+       thumburl="%FIRSTXML%/09_sdb_etage_103/thumbnail.jpg"
        backgroundsound=""
        backgroundsoundloops="0"
        haspolygons="false"
@@ -1331,34 +1331,34 @@
           hlookat="0.000000"
           vlookat="0.000000"/>
 
-    <preview url="%FIRSTXML%/08_sdb_etage_103/preview.jpg" type="CUBESTRIP" striporder="FRBLUD" />
+    <preview url="%FIRSTXML%/09_sdb_etage_103/preview.jpg" type="CUBESTRIP" striporder="FRBLUD" />
 
 
     <image type="CUBE" multires="true" baseindex="0" tilesize="512" devices="!androidstock|webgl">
       <level tiledimagewidth="2048" tiledimageheight="2048">
-          <front url="08_sdb_etage_103/0/1/%v_%u.jpg"/>
-          <right url="08_sdb_etage_103/1/1/%v_%u.jpg"/>
-          <back  url="08_sdb_etage_103/2/1/%v_%u.jpg"/>
-          <left  url="08_sdb_etage_103/3/1/%v_%u.jpg"/>
-          <up    url="08_sdb_etage_103/4/1/%v_%u.jpg"/>
-          <down  url="08_sdb_etage_103/5/1/%v_%u.jpg"/>
+          <front url="09_sdb_etage_103/0/1/%v_%u.jpg"/>
+          <right url="09_sdb_etage_103/1/1/%v_%u.jpg"/>
+          <back  url="09_sdb_etage_103/2/1/%v_%u.jpg"/>
+          <left  url="09_sdb_etage_103/3/1/%v_%u.jpg"/>
+          <up    url="09_sdb_etage_103/4/1/%v_%u.jpg"/>
+          <down  url="09_sdb_etage_103/5/1/%v_%u.jpg"/>
       </level>
       <level tiledimagewidth="1024" tiledimageheight="1024">
-          <front url="08_sdb_etage_103/0/0/%v_%u.jpg"/>
-          <right url="08_sdb_etage_103/1/0/%v_%u.jpg"/>
-          <back  url="08_sdb_etage_103/2/0/%v_%u.jpg"/>
-          <left  url="08_sdb_etage_103/3/0/%v_%u.jpg"/>
-          <up    url="08_sdb_etage_103/4/0/%v_%u.jpg"/>
-          <down  url="08_sdb_etage_103/5/0/%v_%u.jpg"/>
+          <front url="09_sdb_etage_103/0/0/%v_%u.jpg"/>
+          <right url="09_sdb_etage_103/1/0/%v_%u.jpg"/>
+          <back  url="09_sdb_etage_103/2/0/%v_%u.jpg"/>
+          <left  url="09_sdb_etage_103/3/0/%v_%u.jpg"/>
+          <up    url="09_sdb_etage_103/4/0/%v_%u.jpg"/>
+          <down  url="09_sdb_etage_103/5/0/%v_%u.jpg"/>
       </level>
     </image>
       <image type="CUBE" devices="androidstock.and.no-webgl">
-        <front url="08_sdb_etage_103/mobile/0.jpg"/>
-        <right url="08_sdb_etage_103/mobile/1.jpg"/>
-        <back  url="08_sdb_etage_103/mobile/2.jpg"/>
-        <left  url="08_sdb_etage_103/mobile/3.jpg"/>
-        <up    url="08_sdb_etage_103/mobile/4.jpg"/>
-        <down  url="08_sdb_etage_103/mobile/5.jpg"/>
+        <front url="09_sdb_etage_103/mobile/0.jpg"/>
+        <right url="09_sdb_etage_103/mobile/1.jpg"/>
+        <back  url="09_sdb_etage_103/mobile/2.jpg"/>
+        <left  url="09_sdb_etage_103/mobile/3.jpg"/>
+        <up    url="09_sdb_etage_103/mobile/4.jpg"/>
+        <down  url="09_sdb_etage_103/mobile/5.jpg"/>
       </image>
 
 
