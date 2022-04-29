@@ -43,6 +43,33 @@
         <a href="https://teradis.ma" class="u-image u-logo u-image-1" data-image-width="281" data-image-height="392" title="Teradis">
           <img src="images/teradis1.PNG" class="u-logo-image u-logo-image-1">
         </a>
+        <div class="u-clearfix u-custom-html u-custom-html-1">
+          <script> window.onload = _ => {
+    const languages = document.getElementById("languages");
+    if (window.location.pathname.includes("/ar")) {
+      languages.value = "ar";
+    } else if (window.location.pathname.includes("/en")) {
+      languages.value = "en";
+    } else {
+      languages.value = "fr";
+    }
+    languages.onchange = _ => {
+      if (languages.value === 'ar') {
+        window.location = '/ar';
+      } else if (languages.value === 'en') {
+        window.location = '/en';
+      } else {
+        window.location = '/';
+      }
+    }
+  } </script>
+          <div class="custom-select" style="width:120px;">
+            <select id="languages">
+              <option value="fr" selected="selected">Français</option><!-- <option value="ar">العربية</option> -->
+              <option value="en">English</option>
+            </select>
+          </div>
+        </div>
         <a href="https://modularis.ma" class="u-image u-logo u-image-2" data-image-width="387" data-image-height="597" title="Modularis">
           <img src="images/modularis.PNG" class="u-logo-image u-logo-image-2">
         </a>

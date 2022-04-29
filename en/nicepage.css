@@ -37228,7 +37228,6 @@ a.u-link.u-text-hover-grey-90:hover {
 }
 
 .u-header .u-custom-html-1 {
-  height: auto;
   min-height: 26px;
   margin: -93px 0 0 1053px;
 }
@@ -37309,6 +37308,7 @@ a.u-link.u-text-hover-grey-90:hover {
   }
 
   .u-header .u-custom-html-1 {
+    height: auto;
     margin-left: 853px;
   }
 
