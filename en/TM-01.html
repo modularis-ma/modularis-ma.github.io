@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html style="font-size: 16px;" lang="fr-MA">
+<html style="font-size: 16px;">
   <head>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta charset="utf-8">
@@ -57,18 +57,36 @@
       languages.value = "fr";
     }
     languages.onchange = _ => {
-      if (languages.value === 'ar') {
-        window.location = '/ar';
-      } else if (languages.value === 'en') {
-        window.location = '/en';
+
+      const getLang = _ => (
+        languages.value == 'fr' ? '' : languages.value
+      );
+
+      if (window.location.pathname.includes("/TM-01.html")) {
+        window.location = getLang() + '/TM-01.html';
+      } else if (window.location.pathname.includes("/TM-02.html")) {
+        window.location = getLang() + '/TM-02.html';
+      } else if (window.location.pathname.includes("/TM-03.html")) {
+        window.location = getLang() + '/TM-03.html';
+      } else if (window.location.pathname.includes("/VR-OFFICE.html")) {
+        window.location = getLang() + '/VR-OFFICE.html';
+      } else if (window.location.pathname.includes("/VR-TM-01.html")) {
+        window.location = getLang() + '/VR-TM-01.html';
+      } else if (window.location.pathname.includes("/VR-TM-02.html")) {
+        window.location = getLang() + '/VR-TM-02.html';
+      } else if (window.location.pathname.includes("/VR-OFFICE.html")) {
+        window.location = getLang() + '/VR-OFFICE.html';
+      } else if (window.location.pathname.includes("/Modularis-pro.html")) {
+        window.location = getLang() + '/Modularis-pro.html';
       } else {
-        window.location = '/';
+        window.location = getLang() + '/';
       }
     }
   } </script>
           <div class="custom-select" style="width:120px;">
             <select id="languages">
-              <option value="fr">Français</option><!-- <option value="ar">العربية</option> -->
+              <option value="fr">Français</option>
+              <option value="ar">العربية</option>
               <option value="en" selected="selected">English</option>
             </select>
           </div>

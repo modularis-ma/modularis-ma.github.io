@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html style="font-size: 16px;" lang="fr-MA">
+<html style="font-size: 16px;">
   <head>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta charset="utf-8">
@@ -56,18 +56,36 @@
       languages.value = "fr";
     }
     languages.onchange = _ => {
-      if (languages.value === 'ar') {
-        window.location = '/ar';
-      } else if (languages.value === 'en') {
-        window.location = '/en';
+
+      const getLang = _ => (
+        languages.value == 'fr' ? '' : languages.value
+      );
+
+      if (window.location.pathname.includes("/TM-01.html")) {
+        window.location = getLang() + '/TM-01.html';
+      } else if (window.location.pathname.includes("/TM-02.html")) {
+        window.location = getLang() + '/TM-02.html';
+      } else if (window.location.pathname.includes("/TM-03.html")) {
+        window.location = getLang() + '/TM-03.html';
+      } else if (window.location.pathname.includes("/VR-OFFICE.html")) {
+        window.location = getLang() + '/VR-OFFICE.html';
+      } else if (window.location.pathname.includes("/VR-TM-01.html")) {
+        window.location = getLang() + '/VR-TM-01.html';
+      } else if (window.location.pathname.includes("/VR-TM-02.html")) {
+        window.location = getLang() + '/VR-TM-02.html';
+      } else if (window.location.pathname.includes("/VR-OFFICE.html")) {
+        window.location = getLang() + '/VR-OFFICE.html';
+      } else if (window.location.pathname.includes("/Modularis-pro.html")) {
+        window.location = getLang() + '/Modularis-pro.html';
       } else {
-        window.location = '/';
+        window.location = getLang() + '/';
       }
     }
   } </script>
           <div class="custom-select" style="width:120px;">
             <select id="languages">
-              <option value="fr" selected="selected">Français</option><!-- <option value="ar">العربية</option> -->
+              <option value="fr" selected="selected">Français</option>
+              <option value="ar">العربية</option>
               <option value="en">English</option>
             </select>
           </div>
@@ -139,18 +157,30 @@
       </div>
     </section>
     <section class="u-clearfix u-section-2" id="sec-61f6">
-      <div class="u-clearfix u-sheet u-valign-middle-xs u-sheet-1">
+      <div class="u-clearfix u-sheet u-sheet-1">
         <div class="u-clearfix u-expanded-width u-layout-wrap u-layout-wrap-1">
           <div class="u-layout">
             <div class="u-layout-row">
               <div class="u-container-style u-layout-cell u-size-30 u-layout-cell-1">
-                <div class="u-container-layout u-valign-middle-lg u-valign-middle-md u-valign-middle-xl u-valign-top-xs u-container-layout-1">
-                  <img class="u-image u-image-default lazyload u-image-1" alt="" data-image-width="380" data-image-height="476" data-src="images/offres1.PNG">
+                <div class="u-container-layout u-valign-middle-lg u-valign-middle-md u-valign-middle-xl u-valign-top-sm u-valign-top-xs u-container-layout-1">
+                  <ul class="u-text u-text-default u-text-palette-1-base u-text-1">
+                    <li> Stores &amp; show room</li>
+                    <li>Bureaux de vente</li>
+                    <li>Salles de réunions</li>
+                    <li>Hôtels</li>
+                    <li>Cités universitaires</li>
+                    <li>Bâtiments préscolaires et scolaires</li>
+                    <li>Bâtiments sanitaires</li>
+                    <li>Vestiaires</li>
+                    <li>Salles de sport</li>
+                    <li>Locaux techniques</li>
+                    <li>Bases de vie</li>
+                  </ul>
                 </div>
               </div>
               <div class="u-container-style u-layout-cell u-size-30 u-layout-cell-2">
                 <div class="u-container-layout u-valign-bottom u-container-layout-2">
-                  <img class="u-expanded-width u-image u-image-default lazyload u-image-2" alt="" data-image-width="501" data-image-height="329" data-src="images/offres-side.PNG">
+                  <img class="u-expanded-width u-image u-image-default lazyload u-image-1" alt="" data-image-width="501" data-image-height="329" data-src="images/offres-side.PNG">
                 </div>
               </div>
             </div>
@@ -161,12 +191,20 @@
             <div class="u-layout-row">
               <div class="u-container-style u-layout-cell u-size-30 u-layout-cell-3">
                 <div class="u-container-layout u-valign-middle-lg u-valign-middle-md u-valign-middle-xl u-container-layout-3">
-                  <img class="u-expanded-width-lg u-expanded-width-md u-expanded-width-xl u-expanded-width-xs u-image u-image-default lazyload u-image-3" alt="" data-image-width="660" data-image-height="301" data-src="images/process-2.PNG">
+                  <img class="u-expanded-width-lg u-expanded-width-md u-expanded-width-xl u-expanded-width-xs u-image u-image-default lazyload u-image-2" alt="" data-image-width="660" data-image-height="301" data-src="images/process-2.PNG">
                 </div>
               </div>
-              <div class="u-container-style u-layout-cell u-size-30 u-layout-cell-4">
-                <div class="u-container-layout u-valign-middle-lg u-valign-middle-md u-valign-middle-xl u-container-layout-4">
-                  <img class="u-expanded-width-xs u-image u-image-default lazyload u-image-4" alt="" data-image-width="719" data-image-height="316" data-src="images/process-1.PNG">
+              <div class="u-align-left u-container-style u-layout-cell u-size-30 u-layout-cell-4">
+                <div class="u-container-layout u-valign-top-xl u-container-layout-4">
+                  <h3 class="u-text u-text-default-xl u-text-palette-1-base u-text-2">Le processus de votre projet modulaire </h3>
+                  <ol class="u-text u-text-default-xl u-text-3">
+                    <li>Vous choisissez votre modèle</li>
+                    <li>Vous remplissez le formulaire pour préciser votre choix</li>
+                    <li>Nous étudions votre projet</li>
+                    <li>Nous nous chargeons de l'ingénieurie</li>
+                    <li>Nous fabriquons votre bâtiment modulaire</li>
+                    <li>Nous vous livrons et installons votre bâtiment modulaire</li>
+                  </ol>
                 </div>
               </div>
             </div>
