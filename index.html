@@ -13,6 +13,7 @@
     <script class="u-script" type="text/javascript" src="nicepage.js" defer=""></script>
     <meta name="generator" content="Nicepage 4.8.2, nicepage.com">
     <link rel="icon" href="images/favicon1.PNG">
+    
     <link id="u-theme-google-font" rel="stylesheet" href="https://fonts.googleapis.com/css?family=Oswald:200,300,400,500,600,700|Open+Sans:300,300i,400,400i,500,500i,600,600i,700,700i,800,800i">
     <link id="u-page-google-font" rel="stylesheet" href="https://fonts.googleapis.com/css?family=Oswald:200,300,400,500,600,700|Oswald:200,300,400,500,600,700|Open+Sans:300,300i,400,400i,500,500i,600,600i,700,700i,800,800i">
     
@@ -61,7 +62,7 @@
     languages.onchange = _ => {
 
       const getLang = _ => (
-        languages.value == 'fr' ? '' : languages.value
+        languages.value == 'fr' ? '/' : '/' + languages.value
       );
 
       if (window.location.pathname.includes("/TM-01.html")) {
@@ -81,7 +82,7 @@
       } else if (window.location.pathname.includes("/Modularis-pro.html")) {
         window.location = getLang() + '/Modularis-pro.html';
       } else {
-        window.location = getLang() + '/';
+        window.location = getLang();
       }
     }
   } </script>
@@ -154,7 +155,13 @@
         </div>
       </div></header>
     <section class="u-align-left u-clearfix u-image lazyload u-section-1" id="carousel_c923" data-image-width="1280" data-image-height="773" data-bg="url(&quot;images/cover.jpeg&quot;)">
-      <div class="u-align-left u-clearfix u-sheet u-sheet-1"></div>
+      <div class="u-align-left u-clearfix u-sheet u-sheet-1">
+        <h2 class="u-custom-font u-text u-text-default u-text-palette-1-base u-text-1">Modul<span style="font-weight: 400;"></span>aris
+        </h2>
+        <h2 class="u-custom-font u-text u-text-default u-text-font u-text-palette-1-base u-text-2"> ®<span style="font-size: 1rem;"></span>
+          <span style="font-weight: 400;"></span>
+        </h2>
+      </div>
     </section>
     <section class="u-clearfix u-section-2" id="sec-2d48">
       <div class="u-clearfix u-sheet u-valign-middle u-sheet-1">

@@ -6,9 +6,25 @@
   min-height: 803px;
 }
 
+.u-section-1 .u-text-1 {
+  font-size: 0.875rem;
+  font-weight: 400;
+  margin: 34px auto 0 317px;
+}
+
+.u-section-1 .u-text-2 {
+  font-family: SFTransRobotics-1;
+  font-weight: 400;
+  margin: -16px auto 60px 0;
+}
+
 @media (max-width: 1199px) {
   .u-section-1 .u-sheet-1 {
     min-height: 662px;
+  }
+
+  .u-section-1 .u-text-1 {
+    margin-left: 261px;
   }
 }
 
@@ -16,17 +32,29 @@
   .u-section-1 .u-sheet-1 {
     min-height: 575px;
   }
+
+  .u-section-1 .u-text-1 {
+    margin-left: 200px;
+  }
 }
 
 @media (max-width: 767px) {
   .u-section-1 .u-sheet-1 {
     min-height: 589px;
   }
+
+  .u-section-1 .u-text-1 {
+    margin-left: 150px;
+  }
 }
 
 @media (max-width: 575px) {
   .u-section-1 .u-sheet-1 {
     min-height: 375px;
+  }
+
+  .u-section-1 .u-text-1 {
+    margin-left: 94px;
   }
 } .u-section-2 {
   margin-top: 0;
@@ -984,4 +1012,9 @@
   .u-section-6 .u-layout-cell-3 {
     min-height: 9px;
   }
+}@font-face {
+  font-family: 'SFTransRobotics-1';
+  font-style: normal;
+  font-weight: 400;
+  src: url(fonts/SFTransRobotics-1.ttf);
 }

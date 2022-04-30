@@ -52,7 +52,7 @@
     languages.onchange = _ => {
 
       const getLang = _ => (
-        languages.value == 'fr' ? '' : languages.value
+        languages.value == 'fr' ? '/' : '/' + languages.value
       );
 
       if (window.location.pathname.includes("/TM-01.html")) {
@@ -72,7 +72,7 @@
       } else if (window.location.pathname.includes("/Modularis-pro.html")) {
         window.location = getLang() + '/Modularis-pro.html';
       } else {
-        window.location = getLang() + '/';
+        window.location = getLang();
       }
     }
   } </script>
