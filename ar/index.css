@@ -9,7 +9,7 @@
 .u-section-1 .u-text-1 {
   font-size: 0.875rem;
   font-weight: 400;
-  margin: 34px auto 0 317px;
+  margin: 34px auto 0 -12px;
 }
 
 .u-section-1 .u-text-2 {
@@ -26,6 +26,7 @@
   .u-section-1 .u-text-1 {
     width: auto;
     margin-top: 79px;
+    margin-left: 317px;
   }
 
   .u-section-1 .u-text-2 {
@@ -39,12 +40,13 @@
   }
 
   .u-section-1 .u-text-1 {
-    margin-top: 58px;
+    margin-top: 48px;
+    margin-left: -12px;
   }
 
   .u-section-1 .u-text-2 {
     width: auto;
-    margin-top: -26px;
+    margin-top: -16px;
   }
 }
 
@@ -55,8 +57,6 @@
 
   .u-section-1 .u-text-1 {
     margin-top: 63px;
-    margin-right: 211px;
-    margin-left: auto;
   }
 }
 
